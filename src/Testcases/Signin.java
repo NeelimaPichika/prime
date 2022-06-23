@@ -32,6 +32,8 @@ public class Signin {
 		
 		Select Day = new Select(driver.findElement(By.id("date_day")));
 		Day.selectByVisibleText("30");
+		System.out.println("HI");
+		
 		
 		Select Month = new Select(driver.findElement(By.id("date_mon")));
 		Month.selectByVisibleText("SEP");
